@@ -28,8 +28,8 @@ n=input("Enter the number of blades: ");
 
 results_bf1=[];
 
-guessed_bf1=[0.1:0.01:0.95];
-guessed_bf2=[0.1:0.01:0.95];
+guessed_bf1=[0.01:0.01:0.99];
+guessed_bf2=[0.01:0.01:0.99];
 
 index=0;
 for tk=inner_blade_thick
