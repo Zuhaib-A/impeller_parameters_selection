@@ -4,7 +4,7 @@ clc
 format longg
 flow_rate=0.00125;
 pa_gradient=80000;
-rpm=input("Enter the RPM (2400, 2500, 2600, 2700, 2800): ");
+rpm=input("Enter the RPM (2400, 2500, 2600, 2700, 2800) ");
 r1=0.017;
 r2=0.05;
 spiral_angle=5.3;
@@ -28,8 +28,8 @@ n=input("Enter the number of blades: ");
 
 results_bf1=[];
 
-guessed_bf1=[0.01:0.01:0.99];
-guessed_bf2=[0.01:0.01:0.99];
+guessed_bf1=[0.1:0.01:0.95];
+guessed_bf2=[0.1:0.01:0.95];
 
 index=0;
 for tk=inner_blade_thick
