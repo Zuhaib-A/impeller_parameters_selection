@@ -1,5 +1,5 @@
-# iterative_impeller_testing
-Narrowing down many combinations of impeller properties to find the top 10 combinations for 4 different goals which include:
+# impeller_parameters_selection
+Narrowing down many combinations of impeller parameters to find the top 10 combinations for 4 different goals which include:
 
 1. The best inner blockage factor
 
